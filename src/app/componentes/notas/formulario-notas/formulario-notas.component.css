@@ -9,6 +9,8 @@
   background-color: rgb(235, 230, 230);
   padding:20px;
   border-radius: 10px;
+  box-shadow: 4px 4px 10px #ccc;
+
 }
 
 .input{
@@ -34,4 +36,41 @@ label{
   width:140px;
   background-color: white;
   cursor: pointer;
+}
+.btn_acoes:hover{
+  background-color: #999;
+}
+
+.modelo_nota{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.modelo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  height: 15vh;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 10px #ccc;
+  margin-bottom: 20px;
+}
+
+.acoes_modelo{
+
+}
+
+.acoes_modelo button{
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: 2px solid #333;
+}
+
+.acoes_modelo button:hover{
+  background-color: #ccc;
 }
